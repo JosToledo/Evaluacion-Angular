@@ -1,0 +1,18 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Bienvenido al cuestionario</h1>
+    <p class="col-md-8 fs-4">Este cuestionario tiene un total de 5 preguntas. </p>
+    <h4>Reglas</h4> 
+    <ol>
+        <li>El total de puntos son 10.</li>
+        <li>Cada pregunta tiene un valor de 2 puntos.</li>
+        <li>Se iran restando los puntos por cada repuesta erronea.</li>
+        <li>Cada pregunta tiene un tiempo límite.</li>
+        <li>Responde según tu criterio.</li>
+    </ol>
+    <h1 style="font-family: cursive; text-align:center;">¡Mucha suerte!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Ingresa tu nombre</label>
+        <input #nombre type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/pregunta" (click)="iniciarCuestionario()">Iniciar cuestionario</button>
+</div>

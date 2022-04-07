@@ -1,0 +1,74 @@
+{
+    "preguntas":[
+        {
+            "textopregunta":"¿Cuál de los sig. es un lenguaje de programación?",
+            "opciones":[{
+                "texto":"CSS"
+            },
+            {
+                "texto":"JavaScript",
+                "correcto": true
+            },{
+                "texto":"HTML"
+            }
+        ],
+        "explicacion":"HTML es un lenguaje de etiquetas, CSS es un lenguaje de hojas de estilo."
+        },
+        {
+            "textopregunta":"¿Cuál de los sig. es un framwork de JavaScript?",
+            "opciones":[{
+                "texto":"Symfony"
+            },
+            {
+                "texto":"Laravel"
+            },{
+                "texto":"Angular",
+                "correcto": true
+            }
+        ],
+        "explicacion":"Angular es el framework para JS los demás son para PHP."
+        },
+        {
+            "textopregunta":"¿Cuál es un framework para CSS?",
+            "opciones":[{
+                "texto":"Bootstrap",
+                "correcto": true
+            },
+            {
+                "texto":"JavaScript"
+            },{
+                "texto":"Hojas de estilo"
+            }
+        ],
+        "explicacion":"Bootstrap es un framework para CSS."
+        },
+        {
+            "textopregunta":"¿Cual de las sig. opciones es una base de datos?",
+            "opciones":[{
+                "texto":"React"
+            },
+            {
+                "texto":"MySQL",
+                "correcto": true
+            },{
+                "texto":"Vue"
+            }
+        ],
+        "explicacion":"MySQL es una base de datos, los demás son Frameworks."
+        },
+        {
+            "textopregunta":"¿Con que etiqueta se crea un formulario en HTML?",
+            "opciones":[{
+                "texto":"Etiqueta <div>"
+            },
+            {
+                "texto":"Etiqueta <h1>"
+            },{
+                "texto":"Etiqueta <form>",
+                "correcto": true
+            }
+        ],
+        "explicacion":"La etiqueta form es la que nos ayuda a crear un formulario."
+        }
+    ]
+}

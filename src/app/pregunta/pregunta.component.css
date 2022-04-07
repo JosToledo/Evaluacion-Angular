@@ -1,0 +1,16 @@
+.tarjeta{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+li .tarjeta:hover{
+    border: 1px solid #17a589;    
+}
+ol{
+    padding: 0;
+}
